@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IGNITE 5.0</string>
+    <string name="name">IGNITE</string>
+    <string name="website">IGNITE WEBSITE</string>
+    <string name="logo">PHOENIX</string>
+    <string name="Brochure">BROCHURE</string>
+    <string name="dev">DEVELOPERS</string>
+    <string name="register">REGISTER FOR IGNITE</string>
+    <string name="fblike">Like us on Facebook</string>
+    <string name="opnDrawer">Open drawer</string>
+    <string name="clsDrawer">Close drawer</string>
+    <string name="bus">BUS SCHEDULE</string>
+    <string name="TBA">TBA</string>
+
+        <string name="reg"><u>Click Here To Register</u>
+        </string>
+    <string name="spons"><u>Event Sponsor</u>
+        </string>
+    <string name="future"><u>Technologies For Future</u>
+</string>
+</resources>

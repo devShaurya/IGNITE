@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/grad3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/card_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_home3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/logoimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:elevation="4dp"
+                android:scaleType="fitCenter"
+                card_view:srcCompat="@drawable/ignitelogosmall" />
+
+            <RelativeLayout
+                android:id="@+id/logorel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/movgrad"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="25dp"
+                    android:fontFamily="@font/headland_one"
+                    android:text="Rise from Within"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#C52F2F"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_home2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="10dp"
+            card_view:cardCornerRadius="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:fontFamily="@font/headland_one"
+                    android:text="@string/future"
+                    android:textAlignment="center"
+                    android:textColor="@color/tabunSelected"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/home_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    android:padding="10dp"
+                    android:text="Ignite aims to provide the students with a world class technical experience, to inspire and inculcate critical thinking among them by enhancing their problem solving skills, and promote indigenous self-made technology. The motivation behind Ignite is to provide the members of IIT Gandhinagar an exposure to cutting-edge technology and inspirit the participants with the will and wish to replicate and reinvent radical innovation in the college itself, at the maximum possible levels. Ignite creates a platform for the members to uplift their technical quotients by promoting more hands-on skills and encourages indigenous self-made technology."
+                    android:textAlignment="center"
+                    android:textColor="@color/tabunSelected"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

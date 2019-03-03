@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#C21BD8</color>
+    <color name="tabSelected">#ffff</color>
+    <color name="tabunSelected">#000000</color>
+
+    <color name="bg2">#242635</color>
+    <color name="bg3">#dc2c5a</color>
+    <color name="bg">#0E0E0F</color>
+<color name="text">#fff</color>
+    <color name="link">#dc2c5a</color>
+    <color name="colorlinkhover">#FF0060</color>
+    <color name="bg4">#d3acbc48</color>
+    <!--<color name="</color>-->
+</resources>
