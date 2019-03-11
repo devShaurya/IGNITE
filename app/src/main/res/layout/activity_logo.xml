@@ -39,7 +39,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_weight="1"
-      android:text="The Ignite logo is inspired by the mystical bird Phoenix which symbolizes the awakening from flames, with renewal and resurrection. This is with the belief that the development of technical temperament in every Indian will renew our society and resurrect the Indian economy and a new India will awaken on the strength of highly skilled technical manpower. Ignite provides students,teaching and non-teaching staff of IIT Gandhinagar, a platform to showcase and share their technical quotient and knowledge through the channels of various events,exhibitions, talks etc. Over the past 3 years, Ignite has become a “Unique Masterpiece of Technical Extravaganza” with unseen and unprecedented events and competitions."
+      android:text="The Ignite logo is inspired by the mystical bird Phoenix which symbolizes the awakening from flames, with renewal and resurrection. This is with the belief that the development of technical temperament in every Indian will renew our society and resurrect the Indian economy and a new India will awaken on the strength of highly skilled technical manpower. Ignite provides students,teaching and non-teaching staff of IIT Gandhinagar, a platform to showcase and share their technical quotient and knowledge through the channels of various events,exhibitions, talks etc. Over the past 4 years, Ignite has become a “Unique Masterpiece of Technical Extravaganza” with unseen and unprecedented events and competitions."
       android:textAlignment="center"
       android:textColor="#ffff"
       android:textSize="18sp" />
