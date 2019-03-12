@@ -69,10 +69,7 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(MainActivity.this,Brochure.class);
                         MainActivity.this.startActivity(intent);
                         break;
-                    case R.id.nav_reg:
-                        intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://students.iitgn.ac.in/ignite/"));
-                        startActivity(intent);
-                        break;
+
                     case R.id.nav_bus:
                         intent = new Intent(MainActivity.this,Bus.class);
                         startActivity(intent);
@@ -80,6 +77,14 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_dev:
                         intent = new Intent(MainActivity.this, DeveloperActivity.class);
                         MainActivity.this.startActivity(intent);
+                        break;
+                    case R.id.nav_face:
+                        intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/igniteiitgn/"));
+                        startActivity(intent);
+                        break;
+                    case R.id.nav_insta:
+                        intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/ignite_iitgn/"));
+                        startActivity(intent);
                         break;
                     default:
                         break;
