@@ -96,16 +96,18 @@ public class MainActivity extends AppCompatActivity {
 
 //        if(savedInstanceState==null){
 //            getSupportFragmentManager().beginTransaction().replace(
-//                    R.id.fragment_container,new MessageFragment()).commit();
-//            navigationView.setCheckedItem(R.id.nav_message);
+//                    R.id.,new MessageFragment()).commit();
+//            tabLayout.
 //        }
-//
 
         tabLayout.getTabAt(0).setIcon(R.drawable.home);
-        tabLayout.getTabAt(1).setIcon(R.drawable.ic_outline_event_24px);
-        tabLayout.getTabAt(2).setIcon(R.drawable.ic_time);
-        tabLayout.getTabAt(3).setIcon(R.drawable.ic_outline_call_24px);
-        tabLayout.getTabAt(4).setIcon(R.drawable.ic_sponsor);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_event_icon);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_lab_icon);
+        tabLayout.getTabAt(3).setIcon(R.drawable.ic_time);
+        tabLayout.getTabAt(4).setIcon(R.drawable.ic_outline_call_24px);
+        tabLayout.getTabAt(5).setIcon(R.drawable.ic_sponsor);
+
+
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {

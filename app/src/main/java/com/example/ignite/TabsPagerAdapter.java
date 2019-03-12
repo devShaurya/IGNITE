@@ -15,17 +15,16 @@ class TabsPagerAdapter extends FragmentPagerAdapter {
 
         switch (index) {
             case 0:
-                // Top Rated fragment activity
                 return new HomeFragment();
             case 1:
-                // Games fragment activity
                 return new EventsFragment();
             case 2:
-                // Movies fragment activity
-                return new ScheduleFragment();
+                return new LabTourFragment();
             case 3:
-                return new ContactFragment();
+                return new ScheduleFragment();
             case 4:
+                return new ContactFragment();
+            case 5:
                 return new SponsorsFragment();
 
         }
@@ -36,7 +35,7 @@ class TabsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // get item count - equal to number of tabs
-        return 5;
+        return 6;
     }
 
     //    @Nullable
@@ -51,12 +50,15 @@ class TabsPagerAdapter extends FragmentPagerAdapter {
                 title="Events";
                 break;
             case 2:
-                title="Schedule";
+                title="Lab TOurs";
                 break;
             case 3:
-                title="Contact Us";
+                title="Schedule";
                 break;
             case 4:
+                title="Contact Us";
+                break;
+            case 5:
                 title="Sponsor";
                 break;
         }
