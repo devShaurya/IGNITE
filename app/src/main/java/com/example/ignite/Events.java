@@ -11,7 +11,7 @@ public class Events implements Parcelable {
     private String info;
     private String reg;
     private String down;
-
+    private String prize;
 
     //iitgn=1
     //all=0
@@ -20,12 +20,13 @@ public class Events implements Parcelable {
     }
 
 
-    public Events(String down, int openTo,String reg,String info,String timeandvenue, String title, String url){
+    public Events(String down, int openTo,String prize, String reg,String info,String timeandvenue, String title, String url){
         this.down=down;
         this.url=url;
         this.info=info;
         this.timeandvenue=timeandvenue;
         this.openTo=openTo;
+        this.prize=prize;
         this.title=title;
         this.reg=reg;
     }
@@ -69,6 +70,12 @@ public class Events implements Parcelable {
     public String getReg() {
         return reg;
     }
+    public void setPrize(String prize) {
+        this.prize = prize;
+    }
+    public String getPrize() {
+        return prize;
+    }
 
     public String getDown() {
         return down;
@@ -83,6 +90,7 @@ public class Events implements Parcelable {
         down=source.readString();
         info=source.readString();
         openTo = source.readInt();
+        prize=source.readString();
         reg=source.readString();
         timeandvenue = source.readString();
         title = source.readString();
@@ -98,6 +106,7 @@ public class Events implements Parcelable {
         dest.writeString(down);
         dest.writeString(info);
         dest.writeInt(openTo);
+        dest.writeString(prize);
         dest.writeString(reg);
         dest.writeString(timeandvenue);
         dest.writeString(title);

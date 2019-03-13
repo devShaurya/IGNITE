@@ -21,10 +21,12 @@ class TabsPagerAdapter extends FragmentPagerAdapter {
             case 2:
                 return new LabTourFragment();
             case 3:
-                return new ScheduleFragment();
+                return new Aicheragment();
             case 4:
-                return new ContactFragment();
+                return new ScheduleFragment();
             case 5:
+                return new ContactFragment();
+            case 6:
                 return new SponsorsFragment();
 
         }
@@ -35,7 +37,7 @@ class TabsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // get item count - equal to number of tabs
-        return 6;
+        return 7;
     }
 
     //    @Nullable
@@ -50,15 +52,18 @@ class TabsPagerAdapter extends FragmentPagerAdapter {
                 title="Events";
                 break;
             case 2:
-                title="Lab TOurs";
+                title="Lab Tours";
                 break;
             case 3:
-                title="Schedule";
+                title="AICHE";
                 break;
             case 4:
-                title="Contact Us";
+                title="Schedule";
                 break;
             case 5:
+                title="Contact Us";
+                break;
+            case 6:
                 title="Sponsor";
                 break;
         }

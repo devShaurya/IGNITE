@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:id="@+id/lin_aiche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aichetitle"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/headland_one"
+            android:text="AIChE IIT-GN - Student Chapter"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/aichelogo"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/aicheinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/asul"
+            android:text="The AIChE IITGn Student Chapter aims to facilitate the growth and development of chemical engineering students to enable them to have a solid foundation to fulfill their careers in the chemical engineering industry. The student chapter does this through the dissemination of knowledge and experiences of its Alumni to the students, stimulating collaborative efforts between industry and academia and promoting excellence in chemical engineering through projects and competitions."
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleraiche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:visibility="visible"
+            android:scrollbars="none"/>
+    </LinearLayout>
+</ScrollView>

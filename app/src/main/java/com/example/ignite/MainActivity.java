@@ -108,9 +108,10 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(R.drawable.home);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_event_icon);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_lab_icon);
-        tabLayout.getTabAt(3).setIcon(R.drawable.ic_time);
-        tabLayout.getTabAt(4).setIcon(R.drawable.ic_outline_call_24px);
-        tabLayout.getTabAt(5).setIcon(R.drawable.ic_sponsor);
+        tabLayout.getTabAt(3).setIcon(R.drawable.ic_aiche);
+        tabLayout.getTabAt(4).setIcon(R.drawable.ic_time);
+        tabLayout.getTabAt(5).setIcon(R.drawable.ic_outline_call_24px);
+        tabLayout.getTabAt(6).setIcon(R.drawable.ic_sponsor);
 
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
